@@ -1,16 +1,6 @@
 # Kievit
-
+<head>
 link to site: https://saeesh1180.github.io/Kievit/
-
-<iframe src="https://info.frieslandcampinaingredients.com/l/551312/2020-10-16/9l963l" width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
-
-
-<form>
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname">
-</form>
 
 <script type="text/javascript">
 piAId = '552312';
@@ -27,3 +17,19 @@ piHostname = 'pi.pardot.com';
 	else { window.addEventListener('load', async_load, false); }
 })();
 </script>
+</head>
+
+<body>
+	
+<iframe src="https://info.frieslandcampinaingredients.com/l/551312/2020-10-16/9l963l" width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+
+<h2>HTML Forms with Pardot Form-handler</h2>
+
+<form action="http://info.frieslandcampinaingredients.com/l/551312/2020-11-11/9lxfkj" method="post">
+  <label for="firstName">First name:</label><br>
+  <input type="text" id="firstName" name="firstName"><br>
+  <label for="lastName">Last name:</label><br>
+  <input type="text" id="lastName" name="lastName"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+</body>
